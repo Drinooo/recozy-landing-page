@@ -1,0 +1,55 @@
+@import "react-alice-carousel/lib/alice-carousel.css";
+
+.living{
+  background: linear-gradient(90deg, #F4F5FA 0%, rgba(255, 255, 255, 0.00) 100%), url(/images/livingBG.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bedroom{
+  background: linear-gradient(90deg, #F4F5FA 0%, rgba(255, 255, 255, 0.00) 100%), url(/images/bedroomBG.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero{
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.85) 100%), url(/images/heroBG.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.alice-carousel__stage-item{
+  padding-right: 20px;
+}
+
+.alice-carousel__dots{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-dot.inactive{
+  background: #D8D8D8;
+  height: 8px;
+  width: 33px;
+  border-radius: 100px;
+}
+
+.custom-dot.inactive:hover{
+  background: #E75833;
+}
+
+.custom-dot.active{
+  background: #E75833;
+  height: 8px;
+  width: 33px;
+  border-radius: 100px;
+}
+
+.custom-dot.active:hover{
+  background: #E75833;
+}
